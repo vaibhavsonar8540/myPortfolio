@@ -59,6 +59,22 @@ const Project = () => {
             </div>
           </div>
 
+           <div className='col-12 col-sm-12 col-md-6 col-lg-4'>
+            {/* card3 */}
+            <div className='project-card bg-transparent'>
+              <img src="/gym.png" alt="" className='img-fluid img-top' />
+              <div className='card-body pt-2'>
+                <h5 className='fs-4 text-uppercase fw-bold'>Gym clone Website</h5>
+                <p className='card-info'>Recreated a  Website of a gym</p>
+                <p><strong>Tech Stack: </strong>Html, css, Bootstrap, js</p>
+                <div className="btn-group w-100 mt-3">
+                  <a href="https://js-gym-project-fe.vercel.app/" target="_blank" className="btn btn-dark me-2 rounded">LIVE DEMO</a>
+                  <a href="https://github.com/vaibhavsonar8540/jsGymProjectFE" target="_blank" className="btn btn-outline-dark ms-2 rounded">GITHUB</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           
 
         </div>
