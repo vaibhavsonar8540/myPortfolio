@@ -23,11 +23,10 @@ const About = () => {
                 and Mongoose</strong> to transition into full-stack development.
             </p>
 
-            <h4 className="fw-bold mt-4 text-md-start w-100">💻 Real-World Projects</h4>
+            <h4 className="fw-bold mt-4 text-md-start w-100">💻 My Projects</h4>
             <ul className="project-list text-secondary ps-0">
-              <li><strong>Graphic Designer Portfolio Website</strong> – Showcasing creative design work.</li>
-              <li><strong>Logo Lab Technology</strong> – A website displaying graphic-related products.</li>
-              <li><strong>WedGram Designs</strong> – A platform for small wedding invitation videos.</li>
+              <li><strong>Shark tank js</strong> – Showcasing crud operation with filtering data.</li>
+              <li><strong>Clone Gym Project</strong> – A website displaying clone gym data.</li>
             </ul>
 
             <p className="text-secondary text-md-start w-100">

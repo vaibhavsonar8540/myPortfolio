@@ -16,7 +16,7 @@ const Footer = () => {
           {/* Navigation */}
           <div className="col-12 col-md-6 mb-3 mb-md-0">
             <ul className="list-inline mb-0 d-flex flex-wrap justify-content-center gap-3">
-              {['HOME', 'ABOUT', 'SKILL', 'PROJECT', 'CONTACT'].map((item, index) => (
+              {['HOME', 'ABOUT', 'SKILLS', 'PROJECT', 'CONTACT'].map((item, index) => (
                 <li key={index} className="list-inline-item">
                   <a href={`#${item.toLowerCase()}`} className="footer-link">
                     {item}
