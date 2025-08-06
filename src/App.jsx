@@ -8,7 +8,7 @@ import Project from './Components/Project'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Testimonial from './Components/Testimonial'
+
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -39,7 +39,6 @@ function App() {
       <section id="about"><About /></section>
       <section id="skills"><Skills /></section>
       <section id="project"><Project /></section>
-      {/* <Testimonial /> */}
       <section id="contact"><Contact /></section>
       <Footer />
     </>
